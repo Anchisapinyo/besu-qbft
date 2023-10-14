@@ -1,0 +1,2 @@
+
+./besu-23.10.0/bin/besu --data-path=./Node-2/database --genesis-file=./genesis.json --node-private-key-file=./Node-2/data/key --bootnodes=enode://bf47232b0f44e879bdafcec2ccae8b602365dba9636a1a101ba7cb746f1910c207374e467e9d4d28f860b8f6127471f00479f3895d6688ff8bfa6ef2a41eb69e@127.0.0.1:30303 --p2p-port=30304 --rpc-http-enabled --rpc-http-api=ETH,NET,QBFT --host-allowlist="*" --rpc-http-cors-origins="all" --rpc-http-port=8546 --tx-pool-max-future-by-sender=2000

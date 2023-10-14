@@ -1,0 +1,2 @@
+
+./besu-23.10.0/bin/besu --data-path=./Node-1/database --genesis-file=./genesis.json --node-private-key-file=./Node-1/data/key --rpc-http-enabled --rpc-http-api=ETH,NET,QBFT --host-allowlist="*" --rpc-http-cors-origins="all" --tx-pool-max-future-by-sender=2000
